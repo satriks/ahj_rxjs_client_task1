@@ -1,6 +1,6 @@
 # Задание rxjs task1
 
-![CI](https://github.com/satriks/ahj_rxjs_client/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/satriks/ahj_rxjs_client_task1/actions/workflows/web.yml/badge.svg)
 
 
-<a href=https://satriks.github.io/ahj_rxjs_client target=”_blank”>Страница на github</a>
+<a href=https://satriks.github.io/ahj_rxjs_client_task1 target=”_blank”>Страница на github</a>

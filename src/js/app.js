@@ -6,7 +6,7 @@ import { of, interval, mergeMap } from 'rxjs'
 const obs$ = interval(1000 * 5)
   .pipe(
     mergeMap(() =>
-      ajax.getJSON('http://localhost:7070/messages/unread')
+      ajax.getJSON('https://ahj-rxjs-server-task1.onrender.com/messages/unread')
         .pipe(
           map(data => data.messages),
           catchError(error => {
