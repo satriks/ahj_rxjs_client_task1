@@ -17,6 +17,5 @@ const obs$ = interval(1000 * 5)
   )
 
 obs$.subscribe(data => {
-  console.log('subscribe:')
   data.forEach(message => { newMassage(message) })
 })
