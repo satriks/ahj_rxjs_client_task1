@@ -1,0 +1,32 @@
+
+body {
+  color: #520909d1;
+}
+.hidden {
+  display: none;
+}
+
+main{
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 18px;
+
+}
+
+
+.message{
+  border: 1px solid black;
+  margin: 1px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+}
+
+.time{
+  text-align: end;
+}
+
+
